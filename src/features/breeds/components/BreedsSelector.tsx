@@ -69,7 +69,7 @@ const BreedsSelector = ({
         "sticky flex items-center",
         "mx-auto mb-4 w-52 h-24 top-0 left-0 right-0 z-10",
         "md:h-28",
-        "bg-white/90 rounded-b-lg shadow-lg px-4",
+        "bg-yellow-50/90 rounded-b-lg shadow-lg px-4",
       )}
     >
       <Field disabled={isFetching}>
@@ -90,7 +90,7 @@ const BreedsSelector = ({
             <ComboboxInput
               data-testid="breeds-input"
               className={clsx(
-                "w-full rounded-lg border-none py-1.5 pl-3 pr-8 bg-slate-300",
+                "w-full rounded-lg border-none py-1.5 pl-3 pr-8 bg-slate-200",
                 "focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25",
               )}
               placeholder="Poodle, Akita, ..."
